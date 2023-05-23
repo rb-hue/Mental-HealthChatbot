@@ -1,0 +1,278 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "How are you doing",
+                "Is anyone there?",
+                "What's up?",
+                "Hello",
+                "Good day",
+                "What's popping"
+            ],
+            "responses": [
+                "Hey! Welcome to Aura.",
+                "Hi there, I'm doing well! My name's Aura, what can I do for you?",
+                "Hey there, my name's Aura, your mental health friend. How can I help you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later!",
+                "Goodbye!",
+                "Thank you"
+            ],
+            "responses": [
+                "See you later! Take care!",
+                "Have a lovely day! Take care and stay safe!",
+                "Take care of yourself! I'm always here to support you! Feel free to come back at any time!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "What do you do?",
+                "Who are you?",
+                "What are you here for?",
+                "What can you help me with?",
+                "Is anyone there?",
+                "Are you a real person?",
+                "Tell me about yourself!"
+            ],
+            "responses": [
+                "I am your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+                "I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well."
+            ]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": [
+                "What is mental health?",
+                "Define mental health"
+            ],
+            "responses": [
+                "Mental health refers to our overall emotional, psychological, and social well-being. It affects how we think, feel, and behave in different situations. Good mental health is important for our ability to cope with life's challenges, make positive choices, and form healthy relationships. Mental health is not just the absence of mental illness, but also the presence of positive attributes such as resilience, self-esteem, and emotional intelligence.",
+                "Mental health is an important aspect of our overall well-being, as it encompasses our emotional, psychological, and social functioning. It involves the ability to manage stress, regulate emotions, and form healthy relationships. Good mental health can have a positive impact on our physical health, productivity, and quality of life. Mental health can be impacted by a variety of factors, such as genetics, environment, and life experiences."
+            ]
+        },
+        {
+            "tag": "no_support",
+            "patterns": [
+                "What do I do if the support doesn’t help?",
+                "what to do when no one supports me",
+                "what to do when nothing helps",
+                "what to do , "
+            ],
+            "responses": [
+                "If the support doesn't help, you can consider seeking help from a different source. This could be a different mental health professional, a support group, or even a trusted friend or family member.",
+                "When you feel like no one is supporting you, it can be helpful to turn to self-care practices. This can include things like mindfulness exercises, physical activity, and hobbies that bring you joy.",
+                "If you feel like nothing is helping, it's important to remember that recovery is a journey and setbacks are normal. Keep reaching out for support and exploring different options until you find what works best for you"
+            ]
+        },
+        {
+            "tag": "prevent_mental_problems",
+            "patterns": [
+                "Can you prevent mental health problems?",
+                "how to prevent mental health problems?"
+            ],
+            "responses": [
+                "While there is no surefire way to prevent all mental health problems, there are steps you can take to reduce your risk. Some of these include getting regular exercise, eating a healthy diet, getting enough sleep, practicing relaxation techniques like meditation or yoga, and seeking support when you need it.",
+                "It's difficult to prevent all mental health problems, as many factors can contribute to their development. However, taking steps to promote your overall well-being and resilience can help reduce your risk. This can include maintaining healthy relationships, setting and achieving personal goals, practicing self-care, and seeking professional help if you're experiencing symptoms of a mental health condition"
+            ]
+        },
+        {
+            "tag": "suggest_song",
+            "patterns": [
+                "suggest me some relaxing songs",
+                "suggest relaxing songs",
+                "suggest calming music",
+                "suggest relxing music",
+                "suggest good music"
+            ],
+            "responses": [
+                "Weightless by Marconi Union",
+                "Clair de Lune by Claude Debussy",
+                "Spiegel Im Spiegel by Arvo Pärt",
+                "Breathe Me by Sia",
+                "Adagio for Strings by Samuel Barber",
+                "Dreams by Fleetwood Mac",
+                "Don't Think Twice, It's All Right by Bob Dylan",
+                "The Girl from Ipanema by Stan Getz and João Gilberto",
+                "Here Comes the Sun by The Beatles",
+                "I Will Always Love You by Whitney Houston"
+            ]
+        },
+        {
+            "tag": "therapy",
+            "patterns": [
+                "Where Can I Go To Find Therapy",
+                "i need therapy",
+                "i think i need therapy",
+                "where to find therapy"
+            ],
+            "responses": [
+                "There are several places where you can find therapy. You can start by contacting your family doctor or a mental health professional. You can also contact community mental health centers, hospitals, or counseling centers. Some employers offer employee assistance programs that provide free counseling sessions. You can also search online for therapists in your area and read reviews to find the right fit for you.",
+                "Finding therapy can be challenging, but there are resources available to help. You can start by contacting your health insurance provider to see if they cover therapy. You can also use online directories such as Psychology Today to find therapists in your area. Additionally, many universities and colleges offer counseling services to students. Finally, some non-profit organizations offer free or low-cost therapy services. Remember that finding the right therapist is crucial, so take your time and ask for referrals from friends or family."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "What is anxiety?",
+                "Tell me about anxiety",
+                "Can I have some information about anxiety?",
+                "How do I support a loved one with anxiety?"
+            ],
+            "responses": [
+                "I see that you want to learn more about anxiety, and how to support yourself or your loved ones. At the higest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+            ]
+        },
+        {
+            "tag": "feeling_anxiety",
+            "patterns": [
+                "I think I have anxiety",
+                "How do I fix my anxiety?",
+                "I am feeling anxious",
+                "I have anxiety",
+                "I am anixous"
+            ],
+            "responses": [
+                "Here's what you can do: \nKeep physically active. Develop a routine so that you're physically active most days of the week. Exercise is a powerful stress reducer. It may improve your mood and help you stay healthy. Start out slowly and gradually increase the amount and intensity of your activities.\nAvoid alcohol and recreational drugs. These substances can cause or worsen anxiety. If you can't quit on your own, see your doctor or find a support group to help you.\nQuit smoking and cut back or quit drinking caffeinated beverages. Both nicotine and caffeine can worsen anxiety.\nUse stress management and relaxation techniques. Visualization techniques, meditation and yoga are examples of relaxation techniques that can ease anxiety.\nMake sleep a priority. Do what you can to make sure you're getting enough sleep to feel rested. If you aren't sleeping well, see your doctor.\nEat healthy. Healthy eating — such as focusing on vegetables, fruits, whole grains and fish — may be linked to reduced anxiety, but more research is needed.",
+                "Anxiety is a complex mental health issue, and there's no one-size-fits-all solution to it. However, here are some general tips that can help alleviate anxiety symptoms:\n1. Practice relaxation techniques: Deep breathing exercises, progressive muscle relaxation, and meditation are some techniques that can help calm your mind and reduce anxiety.\n2. Exercise regularly: Exercise is a natural stress reliever and helps produce endorphins that improve your mood.\n3. Get enough sleep: Lack of sleep can make anxiety symptoms worse. Aim to get 7-8 hours of sleep per night.\n4. Eat a healthy diet: Eating a well-balanced diet with plenty of fruits, vegetables, and whole grains can help improve your overall well-being.\n5. Seek professional help: Consider seeing a mental health professional, such as a therapist or counselor, who can help you develop coping strategies and provide support.\nRemember, anxiety is a treatable condition, and with the right tools and support, you can learn to manage it and improve your quality of life."
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "What is depression?",
+                "Tell me about depression",
+                "Can I have some information about depression?"
+            ],
+            "responses": [
+                "I see that you want to learn more about depression, and how to support yourself or your loved ones. At the higest level, depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living. All of us experience sadness and periods of time where things aren't that great. However, the difference in sadness and depression lies in the duration and magnitude of the problem. \nThe best recommended course of treatment is to talk a therapist or psychiatrist who can help you find the best path for you. \nEveryone is different and what might work for one person might not work for another one. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+            ]
+        },
+        {
+            "tag": "feeling_depression",
+            "patterns": [
+                "I have depression",
+                "How do I fix my depression?",
+                "I am depressed",
+                "feeling depressed",
+                "I think I have depression"
+            ],
+            "responses": [
+                "It takes a lot of courage to acknowledge that you have depression and seek help. There are many treatment options available to manage depression, such as therapy, medication, and lifestyle changes. Remember that you're not alone in this, and there are people who want to support you in your journey towards feeling better.",
+                "Depression is a complex condition that requires personalized treatment. Seeking help from a mental health professional is a good place to start. Remember that it's okay to take small steps towards feeling better each day, and that healing takes time.",
+                "Depression can be a challenging condition to manage, but it's important to know that you have options. Consider talking to a mental health professional, exploring different treatment options, and making self-care a priority. Remember that you deserve to feel better, and there is hope for recovery."
+            ]
+        },
+        {
+            "tag": "identify_depression",
+            "patterns": [
+                "How can I tell if I'm depressed?"
+            ],
+            "responses": [
+                "Some ways to improve your mental health include getting regular exercise, eating a healthy diet, getting enough sleep, practicing relaxation techniques such as meditation or yoga, and seeking support from loved ones.",
+                "There are several signs and symptoms that may indicate that you're experiencing depression. These may include feelings of sadness, hopelessness, or emptiness; loss of interest in activities that you used to enjoy; changes in appetite or sleep patterns; fatigue or lack of energy; difficulty concentrating or making decisions; feelings of worthlessness or guilt; and thoughts of self-harm or suicide. If you're experiencing any of these symptoms, it's important to speak with a healthcare professional who can provide an accurate diagnosis and help you develop a treatment plan.",
+                "Depression can manifest differently in different people, but some common signs include persistent sadness or irritability, loss of interest in activities you used to enjoy, changes in appetite or sleep patterns, fatigue, difficulty concentrating, feelings of worthlessness or guilt, and thoughts of self-harm or suicide. If you're experiencing these symptoms, it's important to seek professional help from a mental health provider who can evaluate your condition and recommend an appropriate treatment plan. Remember, depression is a treatable condition, and seeking help is a sign of strength, not weakness."
+            ]
+        },
+        {
+            "tag": "identify_stress",
+            "patterns": [
+                "How can I tell if I'm depressed?"
+            ],
+            "responses": [
+                "There are several signs that you may be experiencing stress. Some common physical symptoms of stress include headaches, fatigue, muscle tension, and digestive issues. You may also notice changes in your mood, such as increased irritability or feeling overwhelmed. Additionally, you may find it difficult to focus or make decisions, and may experience changes in your sleep patterns. If you are experiencing any of these symptoms on a regular basis, it may be helpful to speak with a healthcare professional or a mental health provider to discuss ways to manage your stress.",
+                "Stress can manifest in different ways for different people, but there are some common signs to look out for. Some people may experience physical symptoms such as sweating, rapid heartbeat, or shortness of breath. Others may notice changes in their appetite or difficulty sleeping. Emotionally, stress can cause feelings of anxiety, irritability, or sadness. You may also find that you are easily distracted or have trouble concentrating. If you are concerned that you may be experiencing stress, it's important to take steps to manage it, such as practicing relaxation techniques, exercise, or speaking with a mental health provider."
+            ]
+        },
+        {
+            "tag": "schizophrenia",
+            "patterns": [
+                "I think I have schizophrenia",
+                "What is schizophrenia?",
+                "Tell me about schizophrenia",
+                "Can I have some information about schizophrenia?",
+                "How do I support a loved one with schizophrenia?",
+                "How do I fix my schizophrenia?",
+                "I have schizophrenia"
+            ],
+            "responses": [
+                "At the higest level, Schizophrenia is a serious mental disorder in which people interpret reality abnormally. Schizophrenia may result in some combination of hallucinations, delusions, and extremely disordered thinking and behavior that impairs daily functioning, and can be disabling. People with schizophrenia require lifelong treatment. Early treatment may help get symptoms under control before serious complications develop and may help improve the long-term outlook. If you believe you have symptoms of schizophrenia, and/or you have various risk factors that increase the likelihood of schizophrenia, please consult a family doctor and/or psychiatrist for a diagnosis and treatment plan specific for the individual.",
+                "I'm sorry to hear that you've been diagnosed with schizophrenia. It's important to know that with the right treatment and support, many people with schizophrenia are able to manage their symptoms and live fulfilling lives.",
+                "Living with schizophrenia can be challenging, but you are not alone. There are many resources available to help you manage your symptoms, such as medication, therapy, and lifestyle changes. Remember that recovery is possible, and there is hope for a brighter future.",
+                "Schizophrenia is a complex condition that can impact many aspects of a person's life. It's important to have a support system in place, whether that's through therapy, medication, or connecting with others who have had similar experiences. Remember that you are not defined by your diagnosis, and there is hope for a fulfilling and meaningful life."
+            ]
+        },
+        {
+            "tag": "feeling_sad",
+            "patterns": [
+                "feeling sad",
+                "I am feeling sad",
+                "i think i am feeling sad"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're feeling sad. It's important to take care of yourself when you're feeling down. Have you tried talking to someone about how you're feeling or engaging in activities that usually bring you joy?Consider talking to a friend, family member, or mental health professional or Try engaging in activities that usually bring you joy, such as exercise, hobbies, or spending time in nature.",
+                "Feeling sad is a common experience, but that doesn't mean it's easy. It's important to acknowledge and validate your feelings. How can I support you right now?Consider talking to a therapist or mental health professional for additional support or Try journaling, mindfulness, or other self-care activities to help manage your emotions."
+            ]
+        },
+        {
+            "tag": "feeling_angry",
+            "patterns": [
+                "I am angry",
+                "I am feeling Angry",
+                "I think i am feeling angry"
+            ],
+            "responses": [
+                "I'm sorry that you're experiencing anger. It's important to remember that anger is a normal emotion, but it's important to find healthy ways to manage it. Some strategies that may help include deep breathing exercises, meditation, or engaging in a relaxing activity. If you find that your anger is affecting your daily life, it may be helpful to talk to a mental health professional who can provide support and guidance.",
+                "I'm sorry to hear that you're feeling angry. It's important to find healthy ways to cope with anger, such as taking a break to cool down, talking to a trusted friend or therapist, or engaging in physical activity. It's okay to feel angry, but it's important to manage it in a way that doesn't harm yourself or others. Remember that seeking support is a sign of strength, not weakness."
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison!",
+                "I invented a new word! Plagiarism!"
+            ]
+        },
+        {
+            "tag": "self-care",
+            "patterns": [
+                "What is selfcare?",
+                "How can I practice selfcare?",
+                "Why is selfcare important?",
+                "What are some selfcare activities?"
+            ],
+            "responses": [
+                "Self-care refers to any deliberate activity that you engage in to take care of your physical, mental, and emotional health. Some examples of self-care activities include getting enough sleep, eating a healthy diet, exercising regularly, spending time in nature, practicing mindfulness and meditation, engaging in hobbies or activities that you enjoy, and seeking support from friends or a mental health provider. Practicing self-care is essential for maintaining good mental health, reducing stress, and improving your overall well-being."
+            ]
+        }
+    ]
+}
